@@ -1,0 +1,47 @@
+"*":
+  "atom-ide-ui":
+    use:
+      "atom-ide-terminal": "never"
+  "autocomplete-plus":
+    confirmCompletion: "tab always, enter when suggestion explicitly selected"
+  core:
+    debugLSP: true
+    packagesWithKeymapsDisabled: [
+      "vk-terminal"
+    ]
+    telemetryConsent: "no"
+    themes: [
+      "one-light-ui"
+      "lychee-syntax"
+    ]
+    titleBar: "custom-inset"
+  editor:
+    fontFamily: "fira code"
+    fontSize: 16
+    scrollPastEnd: true
+    showIndentGuide: true
+    showInvisibles: true
+  "exception-reporting":
+    userId: "0a005746-a4e0-430f-a13d-76d421203de7"
+  "vk-terminal":
+    ansiColors:
+      normal:
+        blue: "#407acd"
+        cyan: "#22a6cd"
+        green: "#4ecd82"
+        magenta: "#cd1669"
+        red: "#cd4b3c"
+        yellow: "#becd18"
+      zBright:
+        brightBlue: "#3388ff"
+        brightCyan: "#2ec2ff"
+        brightGreen: "#69ffa6"
+        brightMagenta: "#ff408b"
+        brightRed: "#ff573d"
+        brightYellow: "#fffe30"
+    style:
+      animationSpeed: 100
+    toggles:
+      autoClose: true
+  welcome:
+    showOnStartup: false
