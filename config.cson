@@ -6,6 +6,10 @@
     confirmCompletion: "tab always, enter when suggestion explicitly selected"
   core:
     debugLSP: true
+    disabledPackages: [
+      "language-perl"
+      "linter"
+    ]
     packagesWithKeymapsDisabled: [
       "vk-terminal"
     ]
@@ -23,6 +27,12 @@
     showInvisibles: true
   "exception-reporting":
     userId: "0a005746-a4e0-430f-a13d-76d421203de7"
+  "package-sync":
+    createOnChange: true
+    forceOverwrite: true
+  "remote-atom":
+    keep_alive: true
+    launch_at_startup: true
   "vk-terminal":
     ansiColors:
       normal:

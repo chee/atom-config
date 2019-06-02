@@ -8,3 +8,4 @@ projects.cson
 snippets.cson
 storage/
 blob-store/
+.atom-socket-secret*

@@ -1,0 +1,16 @@
+packages: [
+  "atom-ide-ui"
+  "atom-perl6-editor-tools"
+  "build"
+  "busy-signal"
+  "file-icons"
+  "hyperclick"
+  "ide-perl6"
+  "ide-rust"
+  "language-perl6"
+  "linter"
+  "lychee-syntax"
+  "package-sync"
+  "remote-atom"
+  "vk-terminal"
+]
