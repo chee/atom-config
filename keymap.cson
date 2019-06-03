@@ -36,6 +36,7 @@
 
 'atom-text-editor':
 	'cmd-j': 'vk-terminal:toggle'
+	'alt-tab': 'editor:auto-indent'
 
 '.autocomplete-active':
 	'ctrl-g': 'autocomplete-plus:cancel'

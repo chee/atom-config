@@ -3,6 +3,7 @@
     use:
       "atom-ide-terminal": "never"
   "autocomplete-plus":
+    backspaceTriggersAutocomplete: true
     confirmCompletion: "tab always, enter when suggestion explicitly selected"
   core:
     debugLSP: true
@@ -12,13 +13,14 @@
     ]
     packagesWithKeymapsDisabled: [
       "vk-terminal"
+      "prettier-atom"
     ]
     telemetryConsent: "no"
     themes: [
       "one-light-ui"
       "lychee-syntax"
     ]
-    titleBar: "custom-inset"
+    titleBar: "custom"
   editor:
     fontFamily: "fira code"
     fontSize: 16
@@ -30,9 +32,28 @@
   "package-sync":
     createOnChange: true
     forceOverwrite: true
+  "prettier-atom":
+    formatOnSaveOptions:
+      enabled: true
+      isDisabledIfNoConfigFile: true
+      showInStatusBar: true
+    useEslint: true
+    useStylelint: true
   "remote-atom":
     keep_alive: true
     launch_at_startup: true
+  swackets:
+    colorParens: true
+    colorSquareBrackets: true
+    colors: [
+      "#ff5a80"
+      "#ddaa66"
+      "#aaaa00"
+      "#33cc99"
+      "#3399ff"
+      "#cc66cc"
+      "#0000ff"
+    ]
   "vk-terminal":
     ansiColors:
       normal:
