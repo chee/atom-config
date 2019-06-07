@@ -1,8 +1,10 @@
 packages: [
   "atom-ide-ui"
   "atom-perl6-editor-tools"
+  "atom-ternjs"
   "build"
   "busy-signal"
+  "fast-eslint"
   "file-icons"
   "hyperclick"
   "ide-perl6"
@@ -11,10 +13,10 @@ packages: [
   "language-nginx"
   "language-perl6"
   "linter"
+  "linter-eslint"
   "lychee-syntax"
   "package-sync"
   "prettier-atom"
   "remote-atom"
-  "swackets"
   "vk-terminal"
 ]

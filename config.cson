@@ -14,6 +14,8 @@
     packagesWithKeymapsDisabled: [
       "vk-terminal"
       "prettier-atom"
+      "atom-select-npm-install"
+      "npm-helper"
     ]
     telemetryConsent: "no"
     themes: [
@@ -23,10 +25,10 @@
     titleBar: "custom"
   editor:
     fontFamily: "fira code"
-    fontSize: 16
     scrollPastEnd: true
     showIndentGuide: true
     showInvisibles: true
+    softTabs: false
   "exception-reporting":
     userId: "0a005746-a4e0-430f-a13d-76d421203de7"
   "package-sync":
