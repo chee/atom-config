@@ -1,15 +1,17 @@
 "*":
   "atom-ide-ui":
+    "atom-ide-code-format":
+      formatOnSave: true
     use:
       "atom-ide-terminal": "never"
   "autocomplete-plus":
     backspaceTriggersAutocomplete: true
-    confirmCompletion: "tab always, enter when suggestion explicitly selected"
   core:
     debugLSP: true
     disabledPackages: [
       "language-perl"
       "linter"
+      "rustfmt"
     ]
     packagesWithKeymapsDisabled: [
       "vk-terminal"

@@ -18,5 +18,6 @@ packages: [
   "package-sync"
   "prettier-atom"
   "remote-atom"
+  "rustfmt"
   "vk-terminal"
 ]
