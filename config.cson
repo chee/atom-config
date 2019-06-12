@@ -27,6 +27,7 @@
     titleBar: "custom"
   editor:
     fontFamily: "fira code"
+    fontSize: 16
     scrollPastEnd: true
     showIndentGuide: true
     showInvisibles: true
@@ -74,6 +75,8 @@
         brightMagenta: "#ff408b"
         brightRed: "#ff573d"
         brightYellow: "#fffe30"
+    core:
+      shell: "/usr/local/bin/zsh"
     style:
       animationSpeed: 100
     toggles:

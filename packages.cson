@@ -1,13 +1,10 @@
 packages: [
   "atom-ide-ui"
-  "atom-perl6-editor-tools"
   "atom-ternjs"
   "build"
   "busy-signal"
   "fast-eslint"
   "file-icons"
-  "hyperclick"
-  "ide-perl6"
   "ide-rust"
   "ide-typescript"
   "language-nginx"
@@ -19,5 +16,4 @@ packages: [
   "prettier-atom"
   "remote-atom"
   "rustfmt"
-  "vk-terminal"
 ]
