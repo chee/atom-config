@@ -59,6 +59,8 @@
       "#cc66cc"
       "#0000ff"
     ]
+  "tree-view":
+    hideVcsIgnoredFiles: true
   "vk-terminal":
     ansiColors:
       normal:

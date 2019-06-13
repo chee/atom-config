@@ -3,6 +3,7 @@ packages: [
   "atom-ternjs"
   "build"
   "busy-signal"
+  "editorconfig"
   "fast-eslint"
   "file-icons"
   "ide-rust"
@@ -16,4 +17,5 @@ packages: [
   "prettier-atom"
   "remote-atom"
   "rustfmt"
+  "vk-terminal"
 ]
