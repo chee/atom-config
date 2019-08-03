@@ -6,6 +6,7 @@ packages: [
   "editorconfig"
   "fast-eslint"
   "file-icons"
+  "hyperclick"
   "ide-rust"
   "ide-typescript"
   "language-nginx"
@@ -18,4 +19,5 @@ packages: [
   "remote-atom"
   "rustfmt"
   "vk-terminal"
+  "Zen"
 ]

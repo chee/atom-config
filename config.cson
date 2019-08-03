@@ -1,7 +1,7 @@
 "*":
   "atom-ide-ui":
     "atom-ide-code-format":
-      formatOnSave: true
+      formatOnType: false
     use:
       "atom-ide-terminal": "never"
   "autocomplete-plus":
@@ -77,7 +77,8 @@
         brightRed: "#ff573d"
         brightYellow: "#fffe30"
     core:
-      shell: "/usr/local/bin/zsh"
+      mapTerminalsTo: "File"
+      shell: "/bin/sh"
     style:
       animationSpeed: 100
     toggles:
