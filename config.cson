@@ -39,6 +39,7 @@
     forceOverwrite: true
   "prettier-atom":
     formatOnSaveOptions:
+      enabled: true
       isDisabledIfNoConfigFile: true
       showInStatusBar: true
     useEslint: true
