@@ -1,42 +1,36 @@
-# Your keymap
-#
-# Atom keymaps work similarly to style sheets. Just as style sheets use
-# selectors to apply styles to elements, Atom keymaps use selectors to associate
-# keystrokes with events in specific contexts. Unlike style sheets however,
-# each selector can only be declared once.
-#
-# You can create a new keybinding in this file by typing "key" and then hitting
-# tab.
-#
-# Here's an example taken from Atom's built-in keymap:
-#
-# 'atom-text-editor':
-#   'enter': 'editor:newline'
-#
-# 'atom-workspace':
-#   'ctrl-shift-p': 'core:move-up'
-#   'ctrl-p': 'core:move-down'
-#
-# You can find more information about keymaps in these guides:
-# * http://flight-manual.atom.io/using-atom/sections/basic-customization/#customizing-keybindings
-# * http://flight-manual.atom.io/behind-atom/sections/keymaps-in-depth/
-#
-# If you're having trouble with your keybindings not working, try the
-# Keybinding Resolver: `Cmd+.` on macOS and `Ctrl+.` on other platforms. See the
-# Debugging Guide for more information:
-# * http://flight-manual.atom.io/hacking-atom/sections/debugging/#check-the-keybindings
-#
-# This file uses CoffeeScript Object Notation (CSON).
-# If you are unfamiliar with CSON, you can read more about it in the
-# Atom Flight Manual:
-# http://flight-manual.atom.io/using-atom/sections/basic-customization/#configuring-with-cson
-'.platform-darwin':
-	'ctrl-g': 'core:cancel'
-	'cmd-j': 'vk-terminal:toggle'
-
 'atom-text-editor':
-	'cmd-j': 'vk-terminal:toggle'
 	'alt-tab': 'editor:auto-indent'
+	'cmd-d': 'find-and-replace:select-next'
+	'ctrl-a': 'editor:move-to-first-character-of-line'
+	'ctrl-e': 'editor:move-to-end-of-screen-line'
+	'ctrl-p': 'core:move-up'
+	'ctrl-n': 'core:move-down'
+	'ctrl-g': 'core:cancel'
+
+'body':
+	'ctrl-_': 'core:undo'
+	'ctrl-shift-tab': 'pane:show-previous-item'
+	'ctrl-tab': 'pane:show-next-item'
+	'cmd-{': 'pane:show-previous-item'
+	'cmd-}': 'pane:show-next-item'
+	'cmd-c': 'core:copy'
+	'cmd-v': 'core:paste'
+	'cmd-x': 'core:cut'
+	'cmd-w': 'core:close'
+	'cmd-s': 'core:save'
+	'cmd-z': 'core:undo'
+	'cmd-shift-z': 'core:redo'
+	'alt-x': 'command-palette:toggle'
+
+'.platform-linux .atom-ide-terminal .terminal, .platform-win32 .atom-ide-terminal .terminal':
+  'cmd-c': 'atom-ide-terminal:copy'
+  'cmd-v': 'atom-ide-terminal:paste'
+
+'.platform-linux atom-workspace, .platform-win32 atom-workspace':
+  'cmd-j': 'atom-ide-terminal:toggle'
+
+'.platform-win32, .platform-linux':
+	'cmd-\\': 'tree-view:toggle'
 
 '.autocomplete-active':
 	'ctrl-g': 'autocomplete-plus:cancel'

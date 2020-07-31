@@ -1,17 +1,44 @@
 "*":
+  "atom-ide-hyperclick": {}
+  "atom-ide-terminal":
+    ansiColors:
+      normal:
+        blue: "#0080cd"
+        cyan: "#00c4cd"
+        green: "#00cd86"
+        magenta: "#bc3576"
+        red: "#d12630"
+        white: "#dfdfdf"
+        yellow: "#a6aa61"
+      zBright:
+        brightBlue: "#0078ff"
+        brightCyan: "#00c5ff"
+        brightGreen: "#0ce7a8"
+        brightMagenta: "#ff0064"
+        brightRed: "#ff001f"
+        brightWhite: "#bfbfbf"
+        brightYellow: "#b5b571"
+    style:
+      theme: "inverse"
   "atom-ide-ui":
     "atom-ide-code-format":
       formatOnType: false
     use:
       "atom-ide-terminal": "never"
+  "atom-package-deps":
+    ignored: [
+      "ide-rust"
+    ]
+  "atom-typescript":
+    allowJS: true
   "autocomplete-plus":
     backspaceTriggersAutocomplete: true
   core:
     debugLSP: true
     disabledPackages: [
       "language-perl"
-      "linter"
       "rustfmt"
+      "atom-powerline"
     ]
     packagesWithKeymapsDisabled: [
       "vk-terminal"
@@ -19,21 +46,23 @@
       "atom-select-npm-install"
       "npm-helper"
     ]
+    projectHome: "/home/chee/projects/"
     telemetryConsent: "no"
     themes: [
       "one-light-ui"
       "lychee-syntax"
     ]
-    titleBar: "custom"
   editor:
     fontFamily: "fira code"
-    fontSize: 16
+    fontSize: 15
     scrollPastEnd: true
     showIndentGuide: true
     showInvisibles: true
     softTabs: false
+    tabLength: 5
   "exception-reporting":
     userId: "0a005746-a4e0-430f-a13d-76d421203de7"
+  "linter-ui-default": {}
   "package-sync":
     createOnChange: true
     forceOverwrite: true
@@ -41,12 +70,17 @@
     formatOnSaveOptions:
       enabled: true
       isDisabledIfNoConfigFile: true
+      isDisabledIfNotInPackageJson: true
       showInStatusBar: true
     useEslint: true
     useStylelint: true
   "remote-atom":
     keep_alive: true
     launch_at_startup: true
+  "spell-check":
+    locales: [
+      "en-CA"
+    ]
   swackets:
     colorParens: true
     colorSquareBrackets: true
@@ -78,7 +112,9 @@
         brightRed: "#ff573d"
         brightYellow: "#fffe30"
     core:
+      autoRunCommand: "/bin/zsh"
       mapTerminalsTo: "File"
+      mapTerminalsToAutoOpen: true
       shell: "/bin/sh"
     style:
       animationSpeed: 100
